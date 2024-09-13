@@ -1,0 +1,81 @@
+body
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn_size
+{
+	width: 100px;
+	height: 100px;
+}
+
+.lrg_btn_size
+{
+	width: 200px;
+	height: 100px;
+}
+
+.screen_size
+{
+}
+
+.column_align
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.row_align
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#calculator
+{
+	background-color: black;
+	width: fit-content;
+	border-radius:64px;
+	padding: 16px;
+}
+
+#operators > .btn
+{
+	background-color: orange;
+}
+
+#special > .btn
+{
+	background-color: gainsboro;
+}
+
+#numbers .btn
+{
+	background-color: grey;
+}
+
+#screen
+{
+	background-color: black;
+	border-radius:64px;
+	width: 400px;
+	height: 200px;
+}
+
+.btn
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-radius:100px;
+	border: 2px solid black;
+}
+
