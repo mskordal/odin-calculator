@@ -14,12 +14,9 @@ body
 
 .lrg_btn_size
 {
-	width: 200px;
+	width: 184px;
 	height: 100px;
-}
-
-.screen_size
-{
+	padding-left: 32px;
 }
 
 .column_align
@@ -69,6 +66,12 @@ body
 	height: 200px;
 }
 
+#calculator *
+{
+	gap: 16px;
+
+}
+
 .btn
 {
 	display: flex;
@@ -76,6 +79,34 @@ body
 	justify-content: center;
 	align-items: center;
 	border-radius:100px;
-	border: 2px solid black;
 }
 
+.btn_txt
+{
+	margin: 0;
+	font-size: 400%;
+	font-weight: bold;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#numbers .btn_txt
+{
+	color: white;
+}
+
+#operators .btn_txt
+{
+	color: white;
+}
+
+#special .btn_txt
+{
+	color: black;
+}
+
+#zero
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
