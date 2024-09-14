@@ -6,18 +6,6 @@ body
 	align-items: center;
 }
 
-.btn_size
-{
-	width: 100px;
-	height: 100px;
-}
-
-.lrg_btn_size
-{
-	width: 184px;
-	height: 100px;
-	padding-left: 32px;
-}
 
 .column_align
 {
@@ -48,9 +36,19 @@ body
 	background-color: orange;
 }
 
+#operators > .btn:active
+{
+	background-color: gold;
+}
+
 #special > .btn
 {
 	background-color: gainsboro;
+}
+
+#special > .btn:active
+{
+	background-color: whitesmoke;
 }
 
 #numbers .btn
@@ -58,12 +56,22 @@ body
 	background-color: grey;
 }
 
+#numbers .btn:active
+{
+	background-color: gainsboro;
+}
+
 #screen
 {
 	background-color: black;
 	border-radius:64px;
-	width: 400px;
 	height: 200px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+	align-self: stretch;
 }
 
 #calculator *
@@ -79,6 +87,24 @@ body
 	justify-content: center;
 	align-items: center;
 	border-radius:100px;
+	width: 100px;
+	height: 100px;
+}
+
+.btn:hover
+{
+	cursor: pointer;
+}
+
+
+
+.screen_txt
+{
+	margin: 0;
+	font-size: 600%;
+	font-weight: bold;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: white;
 }
 
 .btn_txt
@@ -87,6 +113,7 @@ body
 	font-size: 400%;
 	font-weight: bold;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	user-select: none;
 }
 
 #numbers .btn_txt
@@ -109,4 +136,8 @@ body
 	display: flex;
 	flex-direction: row;
 	justify-content: left;
+
+	width: 184px;
+	height: 100px;
+	padding-left: 32px;
 }

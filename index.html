@@ -10,79 +10,80 @@
 	</head>
 	<body>
 		<div id="calculator" class="column_align">
-			<div id="screen" class="screen_size">
-			</div>
+			<div id="screen">
+						<p class="screen_txt">0</p>
+					</div>
 			<div id="btns" class=row_align>
 				<div id="btns_left" class="column_align">
 					<div id="special" class=row_align>
-						<div id="clear" class="btn_size btn" class="btn">
+						<div id="clear" class="btn" data-special="c">
 						<p class="btn_txt">C</p>
 					</div>
-						<div id="sign" class="btn_size btn" class="btn">
+						<div id="sign" class="btn" data-special="s">
 						<p class="btn_txt">-/+</p>
 					</div>
-						<div id="percent" class="btn_size btn" class="btn">
+						<div id="percent" class="btn" data-special="%">
 						<p class="btn_txt">%</p>
 					</div>
 					</div>
 					<div id="numbers" class="column_align">
 						<div id="row1" class=row_align>
-							<div id="seven" class="btn_size btn">
+							<div id="seven" class="btn" data-num="7">
 								<p class="btn_txt">7</p>
 							</div>
-							<div id="eight" class="btn_size btn">
+							<div id="eight" class="btn" data-num="8">
 								<p class="btn_txt">8</p>
 							</div>
-							<div id="nine" class="btn_size btn">
+							<div id="nine" class="btn" data-num="9">
 								<p class="btn_txt">9</p>
 							</div>
 						</div>
 						<div id="row2" class=row_align>
-							<div id="four" class="btn_size btn">
+							<div id="four" class="btn" data-num="4">
 								<p class="btn_txt">4</p>
 							</div>
-							<div id="five" class="btn_size btn">
+							<div id="five" class="btn" data-num="5">
 								<p class="btn_txt">5</p>
 							</div>
-							<div id="six" class="btn_size btn">
+							<div id="six" class="btn" data-num="6">
 								<p class="btn_txt">6</p>
 							</div>
 						</div>
 						<div id="row3" class=row_align>
-							<div id="one" class="btn_size btn">
+							<div id="one" class="btn" data-num="1">
 								<p class="btn_txt">1</p>
 							</div>
-							<div id="two" class="btn_size btn">
+							<div id="two" class="btn" data-num="2">
 								<p class="btn_txt">2</p>
 							</div>
-							<div id="three" class="btn_size btn">
+							<div id="three" class="btn" data-num="3">
 								<p class="btn_txt">3</p>
 							</div>
 						</div>
 						<div id="row4" class=row_align>
-							<div id="zero" class="lrg_btn_size btn">
+							<div id="zero" class="btn" data-num="0">
 								<p class="btn_txt">0</p>
 							</div>
-							<div id="decimal" class="btn_size btn">
+							<div id="decimal" class="btn" data-num=".">
 								<p class="btn_txt">.</p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div id="operators" class="column_align">
-					<div id="divide" class="btn_size btn">
+					<div id="divide" class="btn" data-op="/">
 						<p class="btn_txt">/</p>
 					</div>
-					<div id="multiply" class="btn_size btn">
+					<div id="multiply" class="btn" data-op="*">
 						<p class="btn_txt">*</p>
 					</div>
-					<div id="subtract" class="btn_size btn">
+					<div id="subtract" class="btn" data-op="-">
 						<p class="btn_txt">-</p>
 					</div>
-					<div id="add" class="btn_size btn">
+					<div id="add" class="btn" data-op="+">
 						<p class="btn_txt">+</p>
 					</div>
-					<div id="evaluate" class="btn_size btn">
+					<div id="eval" class="btn">
 						<p class="btn_txt">=</p>
 					</div>
 				</div>
